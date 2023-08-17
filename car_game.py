@@ -173,7 +173,7 @@ while running:
 
             # speed up the game after passing 10 vehicles
             if score > 0 and score % 10 == 0:
-                speed += 1
+                speed += 0.2
 
     # draw the vehicles
     vehicle_group.draw(screen)
