@@ -86,10 +86,11 @@ vehicle_group = pygame.sprite.Group()
 crash = pygame.image.load('images/crash.png')
 crash_rect = crash.get_rect()
 
-# music
-music = pygame.mixer.Sound('./audio/Tunnelvision.mp3')
-music.set_volume(1.0)
-music.play(loops=-1)
+######## uncomment this for background music
+# # music
+# music = pygame.mixer.Sound('./audio/Tunnelvision.mp3')
+# music.set_volume(1.0)
+# music.play(loops=-1)
 
 
 # game Loop
